@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/home_page.dart';
 import 'package:flutter_app/view/project_practice_page.dart';
+import 'package:flutter_app/view/wechat_article_page.dart';
 
 class App extends StatefulWidget {
   @override
@@ -34,8 +35,7 @@ class AppState extends State<App> with TickerProviderStateMixin {
           children: <Widget>[
             HomePage(),
             ProjectPracticePage(),
-            HomePage()
-//            WechatArticlePage()
+            WechatArticlePage()
           ],
         ),
         bottomNavigationBar: BottomNavigationBar(
