@@ -34,13 +34,13 @@ class _ProjectPracticeState extends State<ProjectPracticePage>
           return Scaffold(
             appBar: AppBar(
               title: Text("项目"),
-              backgroundColor: Color.fromARGB(255, 119, 136, 213),
+              backgroundColor: Colors.greenAccent,
               centerTitle: true,
             ),
             body: Column(
               children: <Widget>[
                 TabBar(
-                  indicatorColor: Colors.deepPurpleAccent,
+                  indicatorColor: Colors.greenAccent,
                   labelColor: Colors.black87,
                   unselectedLabelColor: Colors.black45,
                   controller: _tabCtrl,

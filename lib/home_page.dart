@@ -57,7 +57,7 @@ class HomePageState extends State<HomePage> with AutomaticKeepAliveClientMixin {
     return Scaffold(
       appBar: AppBar(
         title: Text("推荐文章"),
-        backgroundColor: Color.fromARGB(255, 199, 136, 213),
+        backgroundColor: Colors.greenAccent,
         centerTitle: true,
       ),
       body: RefreshIndicator(child: listView, onRefresh: _pullToRefresh),

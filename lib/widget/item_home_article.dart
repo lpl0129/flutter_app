@@ -27,7 +27,8 @@ class _HomeArticleState extends State<HomeArticleItem> {
                     title: widget.article.title, url: widget.article.link)));
       },
       child: Card(
-          margin: EdgeInsets.fromLTRB(2,5,2,0),
+        color: Colors.white,
+          margin: EdgeInsets.fromLTRB(5,5,5,0),
           child: Container(
             padding: EdgeInsets.fromLTRB(18,10,18,10),
             child: Column(
@@ -35,8 +36,8 @@ class _HomeArticleState extends State<HomeArticleItem> {
                 Row(
                   children: <Widget>[
                     Icon(
-                      Icons.child_care,
-                      color: Colors.blueAccent,
+                      Icons.account_circle,
+                      color: Colors.black,
                       size: 18,
                     ),
                     Expanded(
@@ -47,7 +48,7 @@ class _HomeArticleState extends State<HomeArticleItem> {
                             widget.article.author,
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
-                            style: TextStyle(color: Colors.blueAccent),
+                            style: TextStyle(color: Colors.black),
                           ),
                         ))
                   ],
@@ -73,7 +74,7 @@ class _HomeArticleState extends State<HomeArticleItem> {
                   children: <Widget>[
                     Icon(
                       Icons.access_time,
-                      color: Colors.grey,
+                      color: Colors.black,
                       size: 15,
                     ),
                     Expanded(
@@ -84,7 +85,7 @@ class _HomeArticleState extends State<HomeArticleItem> {
                             widget.article.niceDate,
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
-                            style: TextStyle(color: Colors.grey),
+                            style: TextStyle(color: Colors.black45),
                           ),
                         ))
                   ],

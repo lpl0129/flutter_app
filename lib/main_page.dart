@@ -41,7 +41,8 @@ class AppState extends State<App> with TickerProviderStateMixin {
         bottomNavigationBar: BottomNavigationBar(
           currentIndex: _tabIndex,
           type: BottomNavigationBarType.fixed,
-          fixedColor: Colors.deepPurpleAccent,
+          fixedColor: Colors.greenAccent,
+          backgroundColor: Colors.white,
           onTap: (index) => _tap(index),
           items: [
             BottomNavigationBarItem(title: Text("推荐"), icon: Icon(Icons.home)),

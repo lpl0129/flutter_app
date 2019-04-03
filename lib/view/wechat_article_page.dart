@@ -40,14 +40,14 @@ class WechatArticleState extends State<WechatArticlePage>
           return Scaffold(
             appBar: AppBar(
               title: Text("公众号"),
-              backgroundColor: Color.fromARGB(255, 119, 136, 213),
+              backgroundColor: Colors.greenAccent,
               //设置appbar背景颜色
               centerTitle: true, //设置标题是否局中
             ),
             body: Column(
               children: <Widget>[
                 TabBar(
-                  indicatorColor: Colors.deepPurpleAccent,
+                  indicatorColor: Colors.greenAccent,
                   labelColor: Colors.black87,
                   unselectedLabelColor: Colors.black45,
                   controller: _tabCtrl,

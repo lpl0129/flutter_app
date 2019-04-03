@@ -28,7 +28,7 @@ class _ProjectState extends State<ProjectItem> {
                     title: widget.project.title, url: widget.project.link)));
       },
       child: Card(
-          margin: EdgeInsets.fromLTRB(2, 5, 2, 0),
+          margin: EdgeInsets.fromLTRB(5, 5, 5, 0),
           child: Container(
               padding: EdgeInsets.fromLTRB(5, 0, 5, 0),
               child: Row(
@@ -62,7 +62,7 @@ class _ProjectState extends State<ProjectItem> {
                               child: Row(
                                 children: <Widget>[
                                   Icon(
-                                    Icons.child_care,
+                                    Icons.account_circle,
                                     color: Colors.grey,
                                     size: 16,
                                   ),
@@ -89,7 +89,7 @@ class _ProjectState extends State<ProjectItem> {
                                   maxLines: 5,
                                   overflow: TextOverflow.ellipsis,
                                   style: TextStyle(
-                                      color: Colors.orange,
+                                      color: Colors.black87,
                                       fontSize: TextSizeConst.smallTextSize),
                                 ),
                               ),
